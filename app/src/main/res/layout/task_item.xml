@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/targetDateTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TargetDate"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="@color/colorAccent1"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:padding="@dimen/margin1"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:layout_weight="0.8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/taskTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/taskDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textSize="10sp"
+                android:layout_marginLeft="@dimen/margin1"
+                />
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/statusImg"
+            android:src="@drawable/hands_up"
+            android:layout_weight="0.2"
+            android:layout_width="0dp"
+            android:layout_margin="@dimen/margin1"
+            android:scaleType="fitCenter"
+            android:layout_height="50dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

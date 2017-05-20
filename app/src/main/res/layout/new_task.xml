@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/titleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin1"
+        android:textSize="@dimen/inputFont"
+        android:hint="Title"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/descTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleTxt"
+        android:layout_margin="@dimen/margin1"
+        android:ellipsize="end"
+        android:hint="Description"
+        android:maxHeight="@dimen/descHeight"
+        android:scrollbars="vertical"
+        android:textSize="@dimen/inputFont" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/datePickerHeight"
+        android:layout_margin="@dimen/margin1"
+        android:layout_below="@+id/descTxt"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout"
+        android:layout_margin="@dimen/margin1"
+        android:layout_below="@+id/datePicker"
+       >
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/saveBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/btnLabelSize"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Cancel"
+            android:textSize="@dimen/btnLabelSize" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

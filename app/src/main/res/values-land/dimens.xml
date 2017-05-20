@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin1">5dp</dimen>
+    <dimen name="descHeight">60dp</dimen>
+    <dimen name="inputFont">12sp</dimen>
+    <dimen name="datePickerHeight">100dp</dimen>
+    <dimen name="btnLabelSize">10sp</dimen>
+</resources>

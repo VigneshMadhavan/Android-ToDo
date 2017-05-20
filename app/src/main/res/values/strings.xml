@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">To-Do</string>
+    <string name="addl">Add New To-Do Task</string>
+    <string name="completed">Completed Task</string>
+    <string name="loading">Loading...</string>
+    <string name="noData">No Tasks to do</string>
+    <string name="noCompletedTasks">No Tasks Completed</string>
+    <string name="exitMsg">Press Back again to Exit</string>
+    <string name="fillAllDetails">Please enter Title and Description</string>
+
+
+</resources>
